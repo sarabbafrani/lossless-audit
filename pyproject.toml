@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lossless-audit"
+version = "0.1.0"
+description = "Detect lossless audio files that were re-encoded from a lossy source"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [{ name = "Sobhan Arab" }]
+keywords = ["flac", "lossless", "transcode", "audio", "spectrum", "mp3"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Sound/Audio :: Analysis",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/sarabbafrani/lossless-audit"
+Issues = "https://github.com/sarabbafrani/lossless-audit/issues"
+
+[project.scripts]
+lossless-audit = "losslessaudit.cli:main"
+lossless-audit-gui = "losslessaudit.webapp:main"
+
+[tool.setuptools]
+packages = ["losslessaudit"]

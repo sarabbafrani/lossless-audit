@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Lossless Audit
+Name[fa]=سنجش کیفیت صدا
+Comment=Check whether a lossless audio file is genuine
+Comment[fa]=بررسی اینکه فایل صوتی واقعاً بی‌اتلاف است یا نه
+Exec=lossless-audit-gui
+Icon=audio-x-generic
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
