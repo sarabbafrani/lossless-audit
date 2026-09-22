@@ -1,4 +1,4 @@
-# سنجش کیفیت صدا
+# سنجش کیفیت فایل صوتی lossless
 
 [English](README.md)
 
