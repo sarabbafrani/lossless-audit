@@ -1,3 +1,6 @@
+## Persian
+[README.fa.md](README.fa.md) —  مستندات به فارسی.
+
 # Lossless Audit
 
 Tells you whether a FLAC is actually lossless, or whether someone decoded an
@@ -173,10 +176,6 @@ The fixtures are synthesised in the frequency domain with a cutoff chosen by
 the test, so the correct answer is known in advance and no audio ships in
 the repository. They include dither, specifically so the detector cannot
 pass by taking the shortcut described above.
-
-## Persian
-
-[README.fa.md](README.fa.md) — همین مستندات به فارسی.
 
 ## License
 
